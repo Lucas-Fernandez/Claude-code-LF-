@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Talipot LP Dashboard",
+    "slug": "talipot-lp-dashboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "talipot",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.talipot.lpdashboard"
+    },
+    "android": {
+      "package": "com.talipot.lpdashboard",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
